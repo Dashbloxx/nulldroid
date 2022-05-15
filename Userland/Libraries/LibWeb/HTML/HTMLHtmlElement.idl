@@ -1,0 +1,7 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLHtmlElement : HTMLElement {
+
+    [Reflect] attribute DOMString version;
+
+};

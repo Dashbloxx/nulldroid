@@ -1,0 +1,7 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLSlotElement : HTMLElement {
+
+    [Reflect] attribute DOMString name;
+
+};

@@ -1,0 +1,7 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLMenuElement : HTMLElement {
+
+    [Reflect] attribute boolean compact;
+
+};

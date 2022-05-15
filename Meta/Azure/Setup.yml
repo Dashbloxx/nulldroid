@@ -1,0 +1,40 @@
+parameters:
+  os: 'Linux'
+
+steps:
+  - checkout: self
+    persistCredentials: true
+
+  - ${{ if eq(parameters.os, 'Serenity') }}:
+    - script: |
+        sudo add-apt-repository ppa:canonical-server/server-backports
+        sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+        wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
+        sudo add-apt-repository 'deb http://apt.llvm.org/focal/ llvm-toolchain-focal-14 main'
+        sudo apt-get update
+        sudo apt-get install clang-format-14 ccache e2fsprogs gcc-11 g++-11 libstdc++-11-dev libmpfr-dev libmpc-dev ninja-build qemu-utils qemu-system-i386 unzip lld
+      displayName: 'Install Dependencies'
+
+  - ${{ if eq(parameters.os, 'Linux') }}:
+    - script: |
+        sudo apt-get purge -y clang-11 clang-12 gcc-10
+        sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+        wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
+        sudo add-apt-repository 'deb http://apt.llvm.org/focal/ llvm-toolchain-focal-13 main'
+        sudo apt-get update
+        sudo apt-get install ccache gcc-11 g++-11 clang-13 libstdc++-11-dev ninja-build unzip
+
+        sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-13 100
+        sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-13 100
+        sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 100
+        sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 100
+
+        wget https://github.com/WebAssembly/wabt/releases/download/1.0.23/wabt-1.0.23-ubuntu.tar.gz
+        tar -xzf ./wabt-1.0.23-ubuntu.tar.gz
+        rm ./wabt-1.0.23-ubuntu.tar.gz
+      displayName: 'Install Dependencies'
+
+  - ${{ if eq(parameters.os, 'macOS') }}:
+    - script: |
+        brew install ninja wabt ccache unzip
+      displayName: 'Install Dependencies'

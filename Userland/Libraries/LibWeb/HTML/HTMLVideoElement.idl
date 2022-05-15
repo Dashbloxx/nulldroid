@@ -1,0 +1,8 @@
+#import <HTML/HTMLMediaElement.idl>
+
+interface HTMLVideoElement : HTMLMediaElement {
+
+    [Reflect] attribute DOMString poster;
+    [Reflect=playsinline] attribute boolean playsInline;
+
+};

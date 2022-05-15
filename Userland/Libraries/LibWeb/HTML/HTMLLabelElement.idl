@@ -1,0 +1,7 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLLabelElement : HTMLElement {
+
+    [Reflect=for] attribute DOMString htmlFor;
+
+};

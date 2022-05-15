@@ -1,0 +1,7 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLDirectoryElement : HTMLElement {
+
+    [Reflect] attribute boolean compact;
+
+};

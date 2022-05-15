@@ -1,0 +1,9 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLFontElement : HTMLElement {
+
+    [LegacyNullToEmptyString, Reflect] attribute DOMString color;
+    [Reflect] attribute DOMString face;
+    [Reflect] attribute DOMString size;
+
+};

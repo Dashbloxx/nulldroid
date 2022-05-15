@@ -1,0 +1,117 @@
+#import <CSS/StyleSheetList.idl>
+#import <DOM/Comment.idl>
+#import <DOM/DOMImplementation.idl>
+#import <DOM/DocumentFragment.idl>
+#import <DOM/DocumentType.idl>
+#import <DOM/Element.idl>
+#import <DOM/Event.idl>
+#import <DOM/EventHandler.idl>
+#import <DOM/HTMLCollection.idl>
+#import <DOM/Node.idl>
+#import <DOM/NodeFilter.idl>
+#import <DOM/NodeIterator.idl>
+#import <DOM/NodeList.idl>
+#import <DOM/Range.idl>
+#import <DOM/Text.idl>
+#import <DOM/TreeWalker.idl>
+#import <HTML/HTMLElement.idl>
+#import <HTML/HTMLHeadElement.idl>
+#import <HTML/HTMLScriptElement.idl>
+
+interface Document : Node {
+
+    constructor();
+
+    boolean hasFocus();
+
+    // FIXME: These attributes currently don't do anything.
+    [PutForwards=href, LegacyUnforgeable] readonly attribute Location? location;
+
+    readonly attribute DOMImplementation implementation;
+
+    [ImplementedAs=url_string] readonly attribute USVString URL;
+    readonly attribute USVString documentURI;
+
+    readonly attribute DOMString characterSet;
+    readonly attribute DOMString charset;
+    readonly attribute DOMString inputEncoding;
+    readonly attribute DOMString contentType;
+
+    readonly attribute Window? defaultView;
+
+    [CEReactions] Document open(optional DOMString unused1, optional DOMString unused2);
+    // FIXME: implement ExceptionOr<HTML::Window> Document::open(...)
+    // WindowProxy? open(USVString url, DOMString name, DOMString features);
+    [CEReactions] undefined close();
+    [CEReactions] undefined write(DOMString... text);
+    [CEReactions] undefined writeln(DOMString... text);
+
+    attribute DOMString cookie;
+
+    readonly attribute USVString referrer;
+
+    readonly attribute Element? activeElement;
+
+    Element? getElementById(DOMString id);
+    HTMLCollection getElementsByName(DOMString name);
+    HTMLCollection getElementsByTagName(DOMString tagName);
+    HTMLCollection getElementsByTagNameNS(DOMString? namespace, DOMString localName);
+    HTMLCollection getElementsByClassName(DOMString className);
+
+    readonly attribute HTMLCollection applets;
+    readonly attribute HTMLCollection anchors;
+    readonly attribute HTMLCollection images;
+    readonly attribute HTMLCollection embeds;
+    readonly attribute HTMLCollection plugins;
+    readonly attribute HTMLCollection links;
+    readonly attribute HTMLCollection forms;
+    readonly attribute HTMLCollection scripts;
+
+    Element createElement(DOMString tagName);
+    Element createElementNS(DOMString? namespace, DOMString qualifiedName);
+    DocumentFragment createDocumentFragment();
+    Text createTextNode(DOMString data);
+    Comment createComment(DOMString data);
+    Range createRange();
+    Event createEvent(DOMString interface);
+
+    [CEReactions, NewObject] Node importNode(Node node, optional boolean deep = false);
+    [CEReactions, ImplementedAs=adopt_node_binding] Node adoptNode(Node node);
+
+    [ImplementedAs=style_sheets_for_bindings] readonly attribute StyleSheetList styleSheets;
+
+    readonly attribute DOMString compatMode;
+    readonly attribute DocumentType? doctype;
+
+    readonly attribute Element? documentElement;
+    attribute HTMLElement? body;
+    readonly attribute HTMLHeadElement? head;
+    readonly attribute HTMLScriptElement? currentScript;
+
+    readonly attribute DOMString readyState;
+
+    attribute DOMString title;
+
+    // FIXME: These should all come from a ParentNode mixin
+    readonly attribute Element? firstElementChild;
+    readonly attribute Element? lastElementChild;
+    readonly attribute unsigned long childElementCount;
+
+    [CEReactions, Unscopable] undefined prepend((Node or DOMString)... nodes);
+    [CEReactions, Unscopable] undefined append((Node or DOMString)... nodes);
+    [CEReactions, Unscopable] undefined replaceChildren((Node or DOMString)... nodes);
+
+    Element? querySelector(DOMString selectors);
+    [NewObject] NodeList querySelectorAll(DOMString selectors);
+
+    [SameObject] readonly attribute HTMLCollection children;
+
+    readonly boolean hidden;
+    readonly DOMString visibilityState;
+
+    [NewObject] NodeIterator createNodeIterator(Node root, optional unsigned long whatToShow = 0xFFFFFFFF, optional NodeFilter? filter = null);
+    [NewObject] TreeWalker createTreeWalker(Node root, optional unsigned long whatToShow = 0xFFFFFFFF, optional NodeFilter? filter = null);
+
+};
+
+HTMLElement includes GlobalEventHandlers;

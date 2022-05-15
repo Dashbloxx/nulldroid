@@ -1,0 +1,7 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLParagraphElement : HTMLElement {
+
+    [Reflect] attribute DOMString align;
+
+};

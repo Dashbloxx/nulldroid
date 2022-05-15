@@ -1,0 +1,7 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLTableCaptionElement : HTMLElement {
+
+    [Reflect] attribute DOMString align;
+
+};

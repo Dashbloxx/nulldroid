@@ -1,0 +1,18 @@
+#import <DOM/HTMLCollection.idl>
+#import <HTML/HTMLElement.idl>
+
+interface HTMLFormElement : HTMLElement {
+
+    [Reflect] attribute DOMString name;
+    [Reflect] attribute DOMString rel;
+    [Reflect=accept-charset] attribute DOMString acceptCharset;
+    [Reflect=novalidate] attribute boolean noValidate;
+
+    undefined submit();
+
+    // FIXME: Should be [SameObject] and a HTMLFormControlsCollection
+    readonly attribute HTMLCollection elements;
+
+    readonly attribute unsigned long length;
+
+};

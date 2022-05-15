@@ -1,0 +1,13 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLOptionElement : HTMLElement {
+
+    [Reflect] attribute boolean disabled;
+    [Reflect=selected] attribute boolean defaultSelected;
+    attribute boolean selected;
+    [CEReactions] attribute DOMString value;
+
+    [CEReactions] attribute DOMString text;
+    readonly attribute long index;
+
+};

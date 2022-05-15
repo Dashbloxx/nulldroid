@@ -1,0 +1,8 @@
+#import <DOM/Element.idl>
+#import <HTML/HTMLElement.idl>
+#import <HTML/DOMStringMap.idl>
+
+interface SVGElement : Element {
+};
+
+SVGElement includes HTMLOrSVGElement;

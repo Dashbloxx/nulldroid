@@ -1,0 +1,7 @@
+#import <HTML/HTMLMediaElement.idl>
+
+interface HTMLAudioElement : HTMLMediaElement {
+
+
+
+};

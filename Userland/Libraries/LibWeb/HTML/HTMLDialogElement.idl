@@ -1,0 +1,7 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLDialogElement : HTMLElement {
+
+    [Reflect] attribute boolean open;
+
+};

@@ -1,0 +1,7 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLBRElement : HTMLElement {
+
+    [Reflect] attribute DOMString clear;
+
+};

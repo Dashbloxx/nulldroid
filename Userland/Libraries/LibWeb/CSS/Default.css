@@ -1,0 +1,317 @@
+html {
+    font-family: sans-serif;
+    color: -libweb-palette-base-text;
+}
+
+a {
+    cursor: pointer;
+}
+
+body {
+    margin: 8px;
+}
+
+h1,
+h2 {
+    font-family: Pebbleton;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+pre {
+    font-family: monospace;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    white-space: pre;
+}
+
+code,
+kbd,
+samp,
+tt {
+    font-family: monospace;
+}
+
+u,
+ins {
+    text-decoration: underline;
+}
+
+s,
+strike,
+del {
+    text-decoration: line-through;
+}
+
+strong,
+b {
+    font-weight: bold;
+}
+
+i,
+em,
+address,
+cite,
+dfn,
+var {
+    font-style: italic;
+}
+
+html,
+address,
+blockquote,
+body,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+frame,
+frameset,
+hgroup,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+noframes,
+ol,
+p,
+ul,
+center,
+dir,
+hr,
+menu,
+pre,
+header,
+footer,
+nav,
+main,
+article,
+aside,
+section {
+    display: block;
+}
+
+center {
+    text-align: -libweb-center;
+}
+
+h1,
+h2,
+h3 {
+    margin: 8px 0 8px 0;
+}
+
+h4,
+p,
+blockquote,
+ul,
+fieldset,
+form,
+ol,
+dl,
+dir,
+menu {
+    margin: 4px 0 4px 0;
+}
+
+h5,
+h6 {
+    margin: 2px 0 2px 0;
+}
+
+li {
+    display: list-item;
+    margin-left: 8px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+a:link {
+    color: -libweb-link;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
+
+hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px inset #888888;
+}
+
+blink {
+    display: inline;
+}
+
+table {
+    display: table;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+}
+
+td,
+th {
+    display: table-cell;
+}
+
+col {
+    display: table-column;
+}
+
+colgroup {
+    display: table-column-group;
+}
+
+blockquote {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+ul,
+ol {
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+:is(ul, ol) ul {
+    list-style-type: circle;
+}
+
+:is(ul, ol) :is(ul, ol) ul {
+    list-style-type: square;
+}
+
+/* FIXME: This is a temporary hack until we can render a native-looking frame for these. */
+input, textarea {
+    border: 1px solid -libweb-palette-threed-shadow1;
+    min-width: 80px;
+    min-height: 16px;
+    width: 120px;
+    cursor: text;
+    overflow: hidden;
+}
+
+textarea {
+    padding: 2px;
+    display: inline-block;
+    overflow: scroll;
+}
+
+input[type=submit], input[type=button], input[type=reset], input[type=checkbox], input[type=radio] {
+    border: none;
+    min-width: unset;
+    min-height: unset;
+    width: unset;
+    cursor: unset;
+}
+
+button, input[type=submit], input[type=button], input[type=reset] {
+    padding: 4px 8px;
+    background-color: -libweb-palette-button;
+    border: 1px solid -libweb-palette-threed-shadow1;
+}
+
+button:hover, input[type=submit]:hover, input[type=button]:hover, input[type=reset]:hover {
+    background-color: -libweb-palette-hover-highlight;
+}
+
+option {
+    display: none;
+}
+
+details {
+    display: block;
+    padding-left: 1em;
+}
+
+summary {
+    display: block;
+    font-weight: bold;
+}
+
+/* 15.3.1 Hidden elements
+ * https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements
+ */
+/* FIXME: Add `noframes` once frames are implemented. */
+/* FIXME: Add `noembed` once <embed> is implemented. */
+/* FIXME: Add `rp` once <ruby> is implemented. */
+[hidden], area, base, basefont, datalist, head, link, meta, /*noembed,*/
+/*noframes,*/ param, /*rp,*/ script, style, template, title {
+  display: none;
+}
+
+embed[hidden] { display: inline; height: 0; width: 0; }
+
+input[type=hidden i] { display: none !important; }
+
+@media (scripting) {
+  noscript { display: none !important; }
+}
+
+/* 15.3.4 Phrasing content
+ * https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3
+ */
+abbr[title],
+acronym[title] {
+    text-decoration: dotted underline;
+}
+
+mark {
+    background: yellow;
+    color: black;
+}
+
+/* 15.4.1 Embedded content
+ * https://html.spec.whatwg.org/multipage/rendering.html#embedded-content-rendering-rules
+ */
+iframe { border: 2px inset; }
+
+/* https://www.w3.org/TR/mediaqueries-5/#descdef-media-inverted-colors
+ */
+@media (inverted-colors) {
+    img:not(picture>img),
+    picture,
+    video {
+        filter: invert(100%);
+    }
+}

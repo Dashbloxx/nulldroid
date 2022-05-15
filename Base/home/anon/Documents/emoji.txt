@@ -1,0 +1,227 @@
+Faces & Misc Emoji
+------------------
+
+🍆 - U+1F346 EGGPLANT
+🍑 - U+1F351 PEACH
+🍒 - U+1F352 CHERRIES
+🍕 - U+1F355 SLICE OF PIZZA
+🎉 - U+1F389 PARTY POPPER
+🐞 - U+1F41E LADY BEETLE
+👀 - U+1F440 EYES
+👍 - U+1F44D THUMBS UP SIGN
+👎 - U+1F44E THUMBS DOWN SIGN
+💦 - U+1F4A6 SWEAT DROPLETS
+🔥 - U+1F525 FIRE
+😀 - U+1F600 GRINNING FACE
+😂 - U+1F602 FACE WITH TEARS OF JOY
+😃 - U+1F603 SMILING FACE WITH OPEN MOUTH
+😄 - U+1F604 SMILING FACE WITH OPEN MOUTH AND SMILING EYES
+😆 - U+1F606 SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES
+😈 - U+1F608 SMILING FACE WITH HORNS
+😊 - U+1F60A SMILING FACE WITH SMILING EYES
+😎 - U+1F60E SMILING FACE WITH SUNGLASSES
+😬 - U+1F62C GRIMACING FACE
+😶 - U+1F636 FACE WITHOUT MOUTH
+😺 - U+1F63A SMILING CAT FACE
+😼 - U+1F63C CAT FACE WITH WRY SMILE
+😽 - U+1F63D KISSING CAT FACE WITH CLOSED EYES
+😾 - U+1F63E POUTING CAT FACE
+😿 - U+1F63F CRYING CAT FACE
+😹 - U+1F639 CAT FACE WITH TEARS OF JOY
+🙀 - U+1F640 WEARY CAT FACE
+🙂 - U+1F642 SLIGHTLY SMILING FACE
+🙃 - U+1F643 UPSIDE-DOWN FACE
+🚀 - U+1F680 ROCKET
+🤔 - U+1F914 THINKING FACE
+🤦 - U+1F926 FACE PALM
+🥛 - U+1F95B GLASS OF MILK
+🦁 - U+1F981 LION FACE
+🦄 - U+1F984 UNICORN FACE
+• - U+2022 BULLET
+♋ - U+264B CANCER
+⚠ - U+26A0 WARNING SIGN
+⚡ - U+26A1 HIGH VOLTAGE SIGN
+⛔ - U+26D4 NO ENTRY
+❤ - U+2764 RED HEART
+⬆ - U+2B06 UPWARDS BLACK ARROW
+⬇ - U+2B07 DOWNWARDS BLACK ARROW
+
+Yak Emoji (limited cross-platform support)
+---------
+
+􌴀 - U+10CD00 HAIRYAK
+􌴁 - U+10CD01 IMMINENTYAKSHAVE
+􌴂 - U+10CD02 SHAVEDYAK
+􌴃 - U+10CD03 YAKPLUS
+􌴄 - U+10CD04 YAKPING
+􌴅 - U+10CD05 YAKMINUS
+􌴆 - U+10CD06 YAKTANGLE
+􌴇 - U+10CD07 YAKBAIT
+􌴈 - U+10CD08 REYAKTED
+􌴉 - U+10CD09 SLEEPYAK
+􌴊 - U+10CD0A YAKBRAIN
+􌴋 - U+10CD0B GOLDYAK
+􌴌 - U+10CD0C YAKKING
+􌴍 - U+10CD0D YAKMAIL
+􌴎 - U+10CD0E YAKMAGNET
+􌴏 - U+10CD0F YAKFIRE
+􌴐 - U+10CD10 YAKSPLODE
+􌴑 - U+10CD11 YAKSHED
+􌴒 - U+10CD12 YAKFUSED
+􌴓 - U+10CD13 8BITYAK
+􌴔 - U+10CD14 SKELEYAK
+􌴕 - U+10CD15 NEOYAK
+􌴖 - U+10CD16 YAKEA
+􌴗 - U+10CD17 YAKID2
+􌴘 - U+10CD18 YAKSLICE
+􌴙 - U+10CD19 YAKSTICKER
+􌴚 - U+10CD1A YAKKIE
+􌴛 - U+10CD1B ANGELYAK
+􌴜 - U+10CD1C YAK
+􌴝 - U+10CD1D YAKGONE
+􌴞 - U+10CD1E YAKMEASURE
+􌴟 - U+10CD1F YAKCOWBOY
+􌴠 - U+10CD20 YAKSPEED
+􌴡 - U+10CD21 YAKMANDO
+􌴢 - U+10CD22 NINJYAK
+􌵠 - U+10CD60 PARTYAK
+􌵡 - U+10CD61 YAKKISS
+􌵢 - U+10CD62 THOUSANDYAKSTARE
+􌵣 - U+10CD63 YAKBLUSH
+􌵤 - U+10CD64 YAKSHRUG
+􌵥 - U+10CD65 YAKTHONK
+􌵦 - U+10CD66 YAKSAD
+􌵧 - U+10CD67 BABYAK
+􌵨 - U+10CD68 YAKKETYSAX
+􌵩 - U+10CD69 YAKBANE
+􌶐 - U+10CD90 YAKSTACK
+􌶑 - U+10CD91 YAKCHAIN
+􌶒 - U+10CD92 YAKRING
+􌶓 - U+10CD93 YAKOVERFLOW
+􌶰 - U+10CDB0 XMASYAK
+􌶱 - U+10CDB1 YAKTOBERFEST
+􌷐 - U+10CDD0 YAKSTEPS
+􌷠 - U+10CDE0 YAKRAGE-FRAME-1
+􌷡 - U+10CDE1 YAKRAGE-FRAME-2
+􌷢 - U+10CDE2 YAKRAGE-FRAME-3
+􌷣 - U+10CDE3 YAKRAGE-FRAME-4
+􌷤 - U+10CDE4 YAKRAGE-FRAME-5
+􌷥 - U+10CDE5 YAKRAGE-FRAME-6
+
+ZWJ Sequence Flags
+------------------
+
+🏳️‍🐞 - U+1F3F3 U+FE0F U+200D U+1F41E        SerenityOS flag (limited cross-platform support)
+🏳️‍🌈 - U+1F3F3 U+FE0F U+200D U+1F308        Rainbow flag
+🏳️‍⚧️ - U+1F3F3 U+FE0F U+200D U+26A7 U+FE0F  Transgender flag
+🏴‍☠️ - U+1F3F4 U+200D U+2620 U+FE0F         Pirate flag
+🏳️‍ - U+1F3F3 U+FE0F U+200D U+F8FF         Klingon flag (limited cross-platform support)
+🏳️‍🖖 - U+1F3F3 U+FE0F U+200D U+1F596        Vulcan flag (limited cross-platform support)
+
+Regional Indicator Symbol Flags
+-------------------------------
+
+🇦🇲 - U+1F1E6 U+1F1F2 AM Armenia
+🇦🇶 - U+1F1E6 U+1F1F6 AQ Antarctica
+🇦🇹 - U+1F1E6 U+1F1F9 AT Austria
+🇦🇽 - U+1F1E6 U+1F1FD AX Åland Islands
+🇨🇭 - U+1F1E8 U+1F1ED CH Switzerland
+🇩🇪 - U+1F1E9 U+1F1EA DE Germany
+🇩🇰 - U+1F1E9 U+1F1F0 DK Denmark
+🇪🇺 - U+1F1EA U+1F1FA EU European Union
+🇫🇮 - U+1F1EB U+1F1EE FI Finland
+🇫🇴 - U+1F1EB U+1F1F4 FO Faroe Islands
+🇫🇷 - U+1F1EB U+1F1F7 FR France
+🇬🇧 - U+1F1EC U+1F1E7 GB United Kingdom
+🇬🇱 - U+1F1EC U+1F1F1 GL Greenland
+🇬🇷 - U+1F1EC U+1F1F7 GR Greece
+🇭🇺 - U+1F1ED U+1F1FA HU Hungary
+🇮🇱 - U+1F1EE U+1F1F1 IL Israel
+🇮🇸 - U+1F1EE U+1F1F8 IS Iceland
+🇮🇷 - U+1F1EE U+1F1F7 IR Iran
+🇲🇰 - U+1F1F2 U+1F1F0 MK North Macedonia
+🇳🇱 - U+1F1F3 U+1F1F1 NL Netherlands
+🇳🇴 - U+1F1F3 U+1F1F4 NO Norway
+🇵🇱 - U+1F1F5 U+1F1F1 PL Poland
+🇵🇸 - U+1F1F5 U+1F1F8 PS Palestine
+🇷🇺 - U+1F1F7 U+1F1FA RU Russia
+🇸🇪 - U+1F1F8 U+1F1EA SE Sweden
+🇹🇷 - U+1F1F9 U+1F1F7 TR Turkey
+🇹🇼 - U+1F1F9 U+1F1FC TW Taiwan
+🇺🇦 - U+1F1FA U+1F1E6 UA Ukraine
+🇺🇳 - U+1F1FA U+1F1F3 UN United Nations
+🇺🇸 - U+1F1FA U+1F1F8 US United States
+🇻🇳 - U+1F1FB U+1F1F3 VN Vietnam
+
+Emoji Tag Sequence Flags (limited cross-platform support)
+------------------------
+
+🏴󠁣󠁡󠁱󠁣󠁿 - U+1F3F4 U+E0063 U+E0061 U+E0071 U+E0063 U+E007F CA-QC Quebec
+🏴󠁤󠁥󠁢󠁢󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0062 U+E0062 U+E007F DE-BB Brandenburg
+🏴󠁤󠁥󠁢󠁥󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0062 U+E0065 U+E007F DE-BE Berlin
+🏴󠁤󠁥󠁢󠁷󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0062 U+E0077 U+E007F DE-BW Baden-Württemberg
+🏴󠁤󠁥󠁢󠁹󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0062 U+E0079 U+E007F DE-BY Bavaria
+🏴󠁤󠁥󠁨󠁢󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0068 U+E0062 U+E007F DE-HB Bremen
+🏴󠁤󠁥󠁨󠁥󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0068 U+E0065 U+E007F DE-HE Hesse
+🏴󠁤󠁥󠁨󠁨󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0068 U+E0068 U+E007F DE-HH Hamburg
+🏴󠁤󠁥󠁭󠁶󠁿 - U+1F3F4 U+E0064 U+E0065 U+E006D U+E0076 U+E007F DE-MV Mecklenburg-Vorpommern
+🏴󠁤󠁥󠁮󠁩󠁿 - U+1F3F4 U+E0064 U+E0065 U+E006E U+E0069 U+E007F DE-NI Lower Saxony
+🏴󠁤󠁥󠁮󠁷󠁿 - U+1F3F4 U+E0064 U+E0065 U+E006E U+E0077 U+E007F DE-NW North Rhine-Westphalia
+🏴󠁤󠁥󠁲󠁰󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0072 U+E0070 U+E007F DE-RP Rhineland-Palatinate
+🏴󠁤󠁥󠁳󠁨󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0073 U+E0068 U+E007F DE-SH Schleswig-Holstein
+🏴󠁤󠁥󠁳󠁬󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0073 U+E006C U+E007F DE-SL Saarland
+🏴󠁤󠁥󠁳󠁮󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0073 U+E006E U+E007F DE-SN Saxony
+🏴󠁤󠁥󠁳󠁴󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0073 U+E0074 U+E007F DE-ST Saxony-Anhalt
+🏴󠁤󠁥󠁴󠁨󠁿 - U+1F3F4 U+E0064 U+E0065 U+E0074 U+E0068 U+E007F DE-TH Thuringia
+🏴󠁥󠁳󠁣󠁴󠁿 - U+1F3F4 U+E0065 U+E0073 U+E0063 U+E0074 U+E007F ES-CT Catalonia
+🏴󠁥󠁳󠁰󠁶󠁿 - U+1F3F4 U+E0065 U+E0073 U+E0070 U+E0076 U+E007F ES-PV Basque Country
+🏴󠁦󠁩󠀰󠀳󠁿 - U+1F3F4 U+E0066 U+E0069 U+E0030 U+E0033 U+E007F FI-03 South Ostrobothnia
+🏴󠁦󠁩󠀰󠀴󠁿 - U+1F3F4 U+E0066 U+E0069 U+E0030 U+E0034 U+E007F FI-04 South Savonia
+🏴󠁦󠁩󠀰󠀵󠁿 - U+1F3F4 U+E0066 U+E0069 U+E0030 U+E0035 U+E007F FI-05 Kainuu
+🏴󠁦󠁩󠀰󠀶󠁿 - U+1F3F4 U+E0066 U+E0069 U+E0030 U+E0036 U+E007F FI-06 Kanta-Häme (Tavastia Proper)
+🏴󠁦󠁩󠀰󠀷󠁿 - U+1F3F4 U+E0066 U+E0069 U+E0030 U+E0037 U+E007F FI-07 Central Ostrobothnia
+🏴󠁦󠁩󠀰󠀸󠁿 - U+1F3F4 U+E0066 U+E0069 U+E0030 U+E0038 U+E007F FI-08 Central Finland
+🏴󠁦󠁩󠀱󠀳󠁿 - U+1F3F4 U+E0066 U+E0069 U+E0031 U+E0033 U+E007F FI-13 North Karelia
+🏴󠁦󠁩󠀱󠀵󠁿 - U+1F3F4 U+E0066 U+E0069 U+E0031 U+E0035 U+E007F FI-15 Northern Savonia
+🏴󠁦󠁩󠀱󠀶󠁿 - U+1F3F4 U+E0066 U+E0069 U+E0031 U+E0036 U+E007F FI-16 Päijänne Tavastia
+🏴󠁦󠁩󠀱󠀷󠁿 - U+1F3F4 U+E0066 U+E0069 U+E0031 U+E0037 U+E007F FI-17 Satakunta
+🏴󠁦󠁩󠀱󠀸󠁿 - U+1F3F4 U+E0066 U+E0069 U+E0031 U+E0038 U+E007F FI-18 Uusimaa
+🏴󠁩󠁥󠁬󠁿 - U+1F3F4 U+E0069 U+E0065 U+E006C U+E007F         IE-L Leinster
+🏴󠁩󠁥󠁭󠁿 - U+1F3F4 U+E0069 U+E0065 U+E006D U+E007F         IE-M Munster
+🏴󠁩󠁥󠁵󠁿 - U+1F3F4 U+E0069 U+E0065 U+E0075 U+E007F         IE-U Ulster
+🏴󠁳󠁥󠁭󠁿 - U+1F3F4 U+E0073 U+E0065 U+E006D U+E007F         SE-M  Skåne
+🏴󠁳󠁫󠁢󠁣󠁿 - U+1F3F4 U+E0073 U+E006B U+E0062 U+E0063 U+E007F SK-BC Banská Bystrica
+🏴󠁳󠁫󠁢󠁬󠁿 - U+1F3F4 U+E0073 U+E006B U+E0062 U+E006C U+E007F SK-BL Bratislava
+🏴󠁳󠁫󠁫󠁩󠁿 - U+1F3F4 U+E0073 U+E006B U+E006B U+E0069 U+E007F SK-KI Košice
+🏴󠁳󠁫󠁮󠁩󠁿 - U+1F3F4 U+E0073 U+E006B U+E006E U+E0069 U+E007F SK-NI Nitra
+🏴󠁳󠁫󠁰󠁶󠁿 - U+1F3F4 U+E0073 U+E006B U+E0070 U+E0076 U+E007F SK-PV Prešov
+🏴󠁳󠁫󠁴󠁡󠁿 - U+1F3F4 U+E0073 U+E006B U+E0074 U+E0061 U+E007F SK-TA Trnava
+🏴󠁳󠁫󠁴󠁣󠁿 - U+1F3F4 U+E0073 U+E006B U+E0074 U+E0063 U+E007F SK-TC Trenčín
+🏴󠁳󠁫󠁺󠁩󠁿 - U+1F3F4 U+E0073 U+E006B U+E007A U+E0069 U+E007F SK-ZI Žilina
+🏴󠁵󠁡󠀰󠀵󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0030 U+E0035 U+E007F UA-05 Vinnychchyna
+🏴󠁵󠁡󠀰󠀷󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0030 U+E0037 U+E007F UA-07 Volyn
+🏴󠁵󠁡󠀰󠀹󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0030 U+E0039 U+E007F UA-09 Luhanshchyna
+🏴󠁵󠁡󠀱󠀲󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0031 U+E0032 U+E007F UA-12 Dnipropetrovshchyna
+🏴󠁵󠁡󠀱󠀴󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0031 U+E0034 U+E007F UA-14 Donechchyna
+🏴󠁵󠁡󠀱󠀸󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0031 U+E0038 U+E007F UA-18 Zhytomyrshchyna
+🏴󠁵󠁡󠀲󠀱󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0032 U+E0031 U+E007F UA-21 Zakarpattia
+🏴󠁵󠁡󠀲󠀳󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0032 U+E0033 U+E007F UA-23 Zaporizhzhya
+🏴󠁵󠁡󠀲󠀶󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0032 U+E0036 U+E007F UA-26 Prykarpattia
+🏴󠁵󠁡󠀳󠀰󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0033 U+E0030 U+E007F UA-30 Kiev
+🏴󠁵󠁡󠀳󠀲󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0033 U+E0032 U+E007F UA-32 Kyivshchyna
+🏴󠁵󠁡󠀳󠀵󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0033 U+E0035 U+E007F UA-35 Kirovohradschyna
+🏴󠁵󠁡󠀴󠀰󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0034 U+E0030 U+E007F UA-40 Sevastopol
+🏴󠁵󠁡󠀴󠀳󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0034 U+E0033 U+E007F UA-43 Crimea
+🏴󠁵󠁡󠀴󠀶󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0034 U+E0036 U+E007F UA-46 Lvivshchyna
+🏴󠁵󠁡󠀴󠀸󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0034 U+E0038 U+E007F UA-48 Mykolayivschyna
+🏴󠁵󠁡󠀵󠀱󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0035 U+E0031 U+E007F UA-51 Odeshchyna
+🏴󠁵󠁡󠀵󠀳󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0035 U+E0033 U+E007F UA-53 Poltavshchyna
+🏴󠁵󠁡󠀵󠀶󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0035 U+E0036 U+E007F UA-56 Rivnenshchyna
+🏴󠁵󠁡󠀵󠀹󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0035 U+E0039 U+E007F UA-59 Sumshchyna
+🏴󠁵󠁡󠀶󠀱󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0036 U+E0031 U+E007F UA-61 Ternopilshchyna
+🏴󠁵󠁡󠀶󠀳󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0036 U+E0033 U+E007F UA-63 Kharkivshchyna
+🏴󠁵󠁡󠀶󠀵󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0036 U+E0035 U+E007F UA-65 Khersonshchyna
+🏴󠁵󠁡󠀶󠀸󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0036 U+E0038 U+E007F UA-68 Khmelnychchyna
+🏴󠁵󠁡󠀷󠀱󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0037 U+E0031 U+E007F UA-71 Cherkashchyna
+🏴󠁵󠁡󠀷󠀴󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0037 U+E0034 U+E007F UA-74 Chernihivshchyna
+🏴󠁵󠁡󠀷󠀷󠁿 - U+1F3F4 U+E0075 U+E0061 U+E0037 U+E0037 U+E007F UA-77 Chernivtsi Oblast

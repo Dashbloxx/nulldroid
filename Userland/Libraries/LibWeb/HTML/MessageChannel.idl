@@ -1,0 +1,10 @@
+#import <HTML/MessagePort.idl>
+
+interface MessageChannel {
+
+    constructor();
+
+    readonly attribute MessagePort port1;
+    readonly attribute MessagePort port2;
+
+};

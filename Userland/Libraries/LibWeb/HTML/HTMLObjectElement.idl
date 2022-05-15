@@ -1,0 +1,24 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLObjectElement : HTMLElement {
+
+    [CEReactions] attribute DOMString data;
+    [Reflect] attribute DOMString type;
+    [Reflect] attribute DOMString name;
+    [Reflect=usemap] attribute DOMString useMap;
+    [Reflect] attribute DOMString width;
+    [Reflect] attribute DOMString height;
+
+    readonly attribute Document? contentDocument;
+
+    [Reflect] attribute DOMString align;
+    [Reflect] attribute DOMString archive;
+    [Reflect] attribute DOMString code;
+    [Reflect] attribute boolean declare;
+    [Reflect] attribute DOMString standby;
+    [Reflect=codetype] attribute DOMString codeType;
+
+    [LegacyNullToEmptyString, Reflect] attribute DOMString border;
+
+    Document? getSVGDocument();
+};

@@ -1,0 +1,7 @@
+#import <HTML/HTMLElement.idl>
+
+interface HTMLDataElement : HTMLElement {
+
+    [Reflect] attribute DOMString value;
+
+};
